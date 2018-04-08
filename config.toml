@@ -1,0 +1,43 @@
+## Basic Configuration
+baseurl = "https://abhinavjohri.com/"
+languageCode = "en"
+
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+googleAnalytics = "UA-117118218-1"
+# enableRobotsTXT = true
+
+## Site Settings
+[params]
+    author = "johri21"
+    #title = "Testing"
+    description = "SRE | Traveller"
+    authorimage = "/img/profile_picture.png"
+    dateformat = "Jan 2, 2006"
+    highlightjs = true
+    # highlightjsstyle = "github"
+    # please choose either GraphComment or Disqus
+    # GraphCommentId = "your-graph-comment-id" 
+
+## Social Accounts
+[params.social]
+    github = "johri21"
+    instagram = "johri21"
+    linkedin = "johri21"
+    twitter = "abhinavjohri"
+    stackoverflow = "1879548"
+    email = "abhinav.johri21@gmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
